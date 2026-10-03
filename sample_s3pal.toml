@@ -1,0 +1,30 @@
+[aws]
+access_key = "AKI..."
+secret_key = "Iw3..."
+bucket = "mybucket"
+region = "us-west-2"
+
+
+# config below is all optional
+
+[aws.upload_headers]
+Cache-Control = "max-age=86400"
+x-amz-meta-test = "tester" # must use x-amz-meta- for non-standard or s3 will drop it
+
+# for server command
+[server]
+port = 8080
+cache_enabled = true # for /list only
+cache_bust_on_upload = true
+cache_ttl = 10
+max_post_bytes = 3000000 # ~3MB
+static_path="/home/jack/assets" # directory served from /static (optional)
+sign_ttl = 300 # in seconds, so this is 5 minutes
+sign_url = true # always sign URLs if a URL is requested. this defaults to false
+allowed_origins=["http://jackangers.com", "http://blah.com"] # for cors. open "*" if unset
+
+# for watch-folder command
+[folderwatchupload]
+path = "/Users/jack/Desktop/toS3" # or pass in command line
+auto_clipboard = true   # defaults to false
+auto_delete_file = true # defaults to false

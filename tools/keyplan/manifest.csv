@@ -1,0 +1,21 @@
+source,size,prefix,template,ts,uuid
+session.log,88,,ids/%U/%N%E,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+photo.JPG,4096,,archive/%Y/%M/%D/%N%E,1432112345,7c9e6679-7425-40de-944b-e07fc1f90ae7
+.env,37,,uploads/%N,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+weird/%N.jpg,99,,,86400,7c9e6679-7425-40de-944b-e07fc1f90ae7
+a b.txt,2048,pre,,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+README,64,,uploads/%N%E,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+a.jpg.jpg,1200,,uploads/%N%E,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+报告 2025.pdf,512,,up/%N%E,86400,7c9e6679-7425-40de-944b-e07fc1f90ae7
+deep/%N/f.txt,33,mirror,%F,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+notes,5,,,1432112345,0f8fad5b-d9cb-469f-a165-70867728950e
+a.b.c.txt,3,,uploads/%N%E,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+100%_done.txt,7,,uploads/%F,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+plain.txt,12,,%Y%M%D_%N%E,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+%T.txt,10,,uploads/%N_%T%E,1432112345,7c9e6679-7425-40de-944b-e07fc1f90ae7
+../etc/passwd,100,,,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+abs.txt,5,/var/tmp,,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+bad.txt,5,,uploads/%Z.txt,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+oops.txt,-1,,,86400,0f8fad5b-d9cb-469f-a165-70867728950e
+tick.txt,5,,,later,0f8fad5b-d9cb-469f-a165-70867728950e
+id.txt,5,,,86400,xyz
